@@ -39,6 +39,8 @@ def predict(txt):
 # print(predict(txt))
 
 def main():
+
+    
     st.title("Klasifikasi Sentimen Komentar Perundungan Siber di Instagram Menggunakan LSTM")
     text = st.text_input('Komentar Instagram')
 
